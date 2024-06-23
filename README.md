@@ -20,7 +20,7 @@ where:
 - $x$ is the independent variable.
 - $\beta_0$ is the intercept.
 - $\beta_1$ is the slope of the line.
-- $ \epsilon $ is the error term, representing the difference between the observed and predicted values.
+- $\epsilon$ is the error term, representing the difference between the observed and predicted values.
 
 In multiple linear regression (MLR), the model includes multiple independent variables:
 
@@ -28,11 +28,11 @@ $$ y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_p x_p + \epsilon $$
 
 where $x_1, x_2, \ldots, x_p$ are the independent variables.
 
-The coefficients $ \beta $ can be calculated using the Normal Equation:
+The coefficients $\beta$ can be calculated using the Normal Equation:
 
 $$ \beta = (X^T X)^{-1} X^T y $$
 
-Here, $ X^T $ is the transpose of the design matrix $ X $, containing the independent variables, and $ y $ is the vector of observed values.
+Here, $X^T$ is the transpose of the design matrix $X$, containing the independent variables, and $y$ is the vector of observed values.
 
 MLR has been utilized in this case study in a step-by-step manner to understand, analyse, transform and model the data provided for the analysis. The approach described here represent the practical process utilised in industry to predict numerical target parameters for business.
 
@@ -112,7 +112,7 @@ Some distinguishing processes in this approach include,
 ## Regression Outcome
 Equation of our best fitted line is:
 
-$ cnt = 0.268 + 0.235  \times  yr - 0.089  \times  holiday + 0.421 \times temp - 0.145 \times windspeed - 0.076 \times Cloudyday - 0.282 \times Wetday - 0.119 \times Spring + 0.047 \times Winter $
+$ cnt = 0.268 + 0.235\times  yr - 0.089\times  holiday + 0.421\times temp - 0.145\times windspeed - 0.076\times Cloudyday - 0.282\times Wetday - 0.119\times Spring + 0.047\times Winter $
 
 There are eight factors that determine the bike demands in the subject locality
 - **Rental Year** - As the year progresses, bike demand is expected to rise, because of increased awareness about the facility among the users
