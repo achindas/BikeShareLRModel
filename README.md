@@ -18,15 +18,15 @@ $$ y\ =\ \beta_0+\ \beta_1\ x\ +\ \epsilon $$
 where:
 - $y$ is the dependent variable.
 - $x$ is the independent variable.
-- $ \beta_0 $ is the intercept.
-- $ \beta_1 $ is the slope of the line.
+- $\beta_0$ is the intercept.
+- $\beta_1$ is the slope of the line.
 - $ \epsilon $ is the error term, representing the difference between the observed and predicted values.
 
 In multiple linear regression (MLR), the model includes multiple independent variables:
 
 $$ y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_p x_p + \epsilon $$
 
-where $ x_1, x_2, \ldots, x_p $ are the independent variables.
+where $x_1, x_2, \ldots, x_p$ are the independent variables.
 
 The coefficients $ \beta $ can be calculated using the Normal Equation:
 
