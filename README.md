@@ -112,7 +112,7 @@ Some distinguishing processes in this approach include,
 ## Regression Outcome
 Equation of our best fitted line is:
 
-$ cnt = 0.268 + 0.235\times  yr - 0.089\times  holiday + 0.421\times temp - 0.145\times windspeed - 0.076\times Cloudyday - 0.282\times Wetday - 0.119\times Spring + 0.047\times Winter $
+$cnt = 0.268 + 0.235\times  yr - 0.089\times  holiday + 0.421\times temp - 0.145\times windspeed - 0.076\times Cloudyday - 0.282\times Wetday - 0.119\times Spring + 0.047\times Winter$
 
 There are eight factors that determine the bike demands in the subject locality
 - **Rental Year** - As the year progresses, bike demand is expected to rise, because of increased awareness about the facility among the users
