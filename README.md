@@ -112,21 +112,23 @@ Some distinguishing processes in this approach include,
 ## Regression Outcome
 Equation of our best fitted line is:
 
-$cnt = 0.268 + 0.235 \times  yr - 0.089 \times  holiday + 0.421 \times temp - 0.145 \times windspeed - 0.076 \times Cloudyday$
-$- 0.282 \times Wetday - 0.119 \times Spring + 0.047 \times Winter$
+$ cnt = 0.220 + 0.235  \times  yr + 0.473 \times temp - 0.157 \times windspeed - 0.040 \times Jan - 0.047 \times Jul + 0.072 \times Sep - 0.045 \times Sun - 0.081 \times Cloudyday - 0.287 \times Wetday - 0.062 \times Spring + 0.044 \times Summer + 0.077 \times Winter $
 
-There are eight factors that determine the bike demands in the subject locality
-- **Rental Year** - As the year progresses, bike demand is expected to rise, because of increased awareness about the facility among the users
+There are **twelve** factors that determine the bike demands in the subject locality for a day in year:
 
-- **Holiday** - On holidays, demand is expected to fall slightly
+* **Rental Year &uarr;** - As the year progresses, bike demand is expected to rise, because of increased awareness about the facility among the users
 
-- **Temperature** - As the temperature increases (in otherwise cold climate), bike demand will grow significantly
+* **Temperature &uarr;** - As the temperature increases (in otherwise cold climate), bike demand will grow significantly
 
-- **Wind Speed** - On days with high wind speed, demand is expected to fall
+* **Wind Speed &darr;** - On days wither high wind speed, demand is expected to fall
 
-- **Cloudyday/ Wetday** - Demand will be less compared to Clearday on days with heavy cloud or light rain/ snow
+* **Jan &darr;/ July &darr;/ Sep &uarr;** - Demand will slightly fall in Jan & July, but increase in Sep
 
-- **Spring/ Winter** - Demand will fall in Spring while improve slightly in Winter 
+* **Sun &darr;** - Sundays will see slightly less demand as the office-going users will be less
+
+* **Cloudyday &darr;/ Wetday &darr;** - Demand will be less compared to Clearday on days with heavy cloud or light rain/ snow.
+
+* **Spring &darr;/ Summer &uarr;/ Winter &uarr;** - Demand will fall slightly in Spring, but increase in Summer & Winter due to higher temperature
 
 ## Conclusion
 
