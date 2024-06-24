@@ -112,7 +112,7 @@ Some distinguishing processes in this approach include,
 ## Regression Outcome
 Equation of our best fitted line is:
 
-$ cnt = 0.220 + 0.235  \times  yr + 0.473 \times temp - 0.157 \times windspeed - 0.040 \times Jan - 0.047 \times Jul + 0.072 \times Sep - 0.045 \times Sun - 0.081 \times Cloudyday - 0.287 \times Wetday - 0.062 \times Spring + 0.044 \times Summer + 0.077 \times Winter $
+$cnt = 0.220 + 0.235  \times  yr + 0.473 \times temp - 0.157 \times windspeed - 0.040 \times Jan - 0.047 \times Jul + 0.072 \times Sep - 0.045 \times Sun - 0.081 \times Cloudyday - 0.287 \times Wetday - 0.062 \times Spring + 0.044 \times Summer + 0.077 \times Winter$
 
 There are **twelve** factors that determine the bike demands in the subject locality for a day in year:
 
